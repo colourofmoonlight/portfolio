@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    justify-content: space-around;
+    margin: 60px auto 40px;
+
+}
+
+.navigation__segment {
+    font-family: 'Syne Mono', monospace;
+    font-size: 30px;
+    border: 1px #000 solid;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgba(245, 245, 245, 0.836);
+}
