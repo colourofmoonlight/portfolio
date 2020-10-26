@@ -1,0 +1,37 @@
+.header {
+    margin: 50px auto;
+    max-width: 40%;
+    height: 400px;
+    border: 1px #000 solid;
+    position: relative;
+    font-family: 'Kelly Slab', cursive;
+    text-transform: uppercase;
+}
+
+.header__textContainer {
+    background-image: url("../images/mainpageimg.png");
+    position: absolute;
+    background-size: cover;
+    margin: 0;
+    height: 80%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__title {
+    font-size: 60px;
+    text-align: center;
+    margin: 80px -80px 20px;
+    display: block;
+    background-color: #a9a9a983;
+}
+
+.header__paragraph {
+    text-align: right;
+    margin: 0 10px;
+    font-size: 30px;
+    color: rgb(252, 251, 250);
+}
