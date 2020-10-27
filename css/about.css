@@ -1,0 +1,42 @@
+.about {
+    margin: 60px auto;
+    max-width: 60%;
+    height: auto;
+    background-color: darkolivegreen;    
+}
+
+.about__header {
+    font-family: 'Syne Mono', monospace;
+    font-size: 50px;
+    max-width: 100%;
+    display: block;
+    background-color: darkorchid;
+}
+
+.about__container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px;
+    height: auto;
+}
+
+.about__col {
+    margin: 20px 30px;
+    height: auto;
+    background-color: deeppink;
+    max-width: 30%;
+}
+
+.about__col--right {
+    max-width: 60%;
+}
+
+.about__paragraph {
+    padding: 20px;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+}
